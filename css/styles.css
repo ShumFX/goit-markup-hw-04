@@ -224,8 +224,7 @@ img {
   background-color: #f4f4fd;
 }
 
-.icon-tasks {
-}
+
 
 .tasks-list {
   display: flex;
@@ -264,9 +263,10 @@ img {
   padding: 32px 16px;
 }
 
+
 .container-team-name {
   padding-top: 32px;
-  padding-bottom: 32px;
+  
 }
 
 .team-list {
@@ -278,8 +278,8 @@ img {
   background-color: #fff;
   border-radius: 0 0 4px 4px;
   padding: 0px 0px 32px 0px;
-  width: 264px;
-  height: 380px;
+  
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 
 .team-title {
@@ -312,6 +312,29 @@ img {
   color: #434455;
   text-align: center;
 }
+
+.social-list {
+  display: flex;
+  justify-content: center;
+  column-gap: 24px;
+  }
+
+   .social-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    fill: white;
+    background-color: #4d5ae5;
+    margin-top: 8px;
+    }
+
+    .social-link:hover, 
+    .social-link:focus {
+      background-color: #31D0AA;
+    }
 
 /*works*/
 
