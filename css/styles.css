@@ -348,7 +348,8 @@ img {
 }
 
 .owerlay {
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1), opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
   position: absolute;
   top: 0;
   left: 0;
@@ -384,7 +385,6 @@ img {
 
 .works-list-item {
   width: calc((100% - 48px) / 3);
-  position: relative;
 }
 
 .works-list-item:hover .owerlay {
@@ -420,6 +420,10 @@ img {
   color: #434455;
 }
 
+.works-block {
+  position: relative;
+}
+
 /*footer*/
 
 .container-footer {
@@ -444,11 +448,16 @@ img {
   max-width: 264px;
 }
 
-.footer-social-text {
-  font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #fff;
+.social-link-footer:hover,
+.social-link-footer:focus {
+  background-color: #31d0aa;
+}
+
+.footer-social {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #fff;
+  margin-bottom: 16px;
 }
