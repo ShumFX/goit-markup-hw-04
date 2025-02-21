@@ -148,7 +148,6 @@ img {
 /*solution*/
 
 .solution {
-  
   background-color: #2e2f42;
   padding-top: 188px;
   padding-bottom: 188px;
@@ -161,12 +160,7 @@ img {
   background-size: cover;
   background-position: center center;
   max-width: 1440px;
-  
-  }
-
-  
-    
-  
+}
 
 .solution-text {
   font-weight: 700;
@@ -326,7 +320,6 @@ img {
 
 .social-item {
   height: 40px;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-icon {
@@ -344,9 +337,10 @@ img {
   background-color: #4d5ae5;
   margin-top: 8px;
   height: 100%;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.social-link:focus, 
+.social-link:focus,
 .social-link:hover {
   background-color: #404bbf;
 }
@@ -392,6 +386,8 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+  padding: 40px 32px;
+  
 }
 
 .works {
@@ -408,6 +404,7 @@ img {
 
 .works-list-item {
   width: calc((100% - 48px) / 3);
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .works-list-item:hover .owerlay {
@@ -445,12 +442,15 @@ img {
 
 .works-block {
   position: relative;
+  overflow: hidden;
 }
 
 /*footer*/
 
 .container-footer {
+  display: flex;
   align-items: center;
+  align-items: baseline;
 }
 
 .footer-logo {
@@ -476,11 +476,23 @@ img {
   background-color: #31d0aa;
 }
 
+.social-list-footer {
+  gap: 16px;
+}
+
 .footer-social {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #fff;
+  margin-bottom: 16px;
+  }
+
+.footer-logocontainer {
+  margin-right: 120px;
+}
+
+.footer-social-text {
   margin-bottom: 16px;
 }
